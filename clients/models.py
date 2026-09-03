@@ -8,7 +8,7 @@ class Client(models.Model):
         PAUSED = "Pausado", "Pausado"
     full_name = models.CharField(max_length=160)
     company = models.CharField(max_length=160)
-    email = models.EmailField(unique=True)
+    email = models.EmailField(unique=True, blank=True, null=True)
     phone = models.CharField(max_length=30)
     service = models.CharField(max_length=120)
     status = models.CharField(max_length=20, choices=Status.choices, default=Status.ONBOARDING)
