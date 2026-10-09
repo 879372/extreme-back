@@ -1,4 +1,4 @@
-# Extreme Software — Backend
+# Kaibez — Backend
 
 API independente em Django + Django REST Framework para clientes, autenticação administrativa e evolução do painel.
 

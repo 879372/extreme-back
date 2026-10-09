@@ -28,7 +28,7 @@ class Client(models.Model):
 
 class BillingSettings(models.Model):
     pix_key = models.CharField(max_length=160, blank=True)
-    message_template = models.TextField(default="Olá, {name}! A mensalidade de {value} da {company} está pendente. Chave PIX: {pix_key}. Obrigado! — Extreme Software")
+    message_template = models.TextField(default="Olá, {name}! A mensalidade de {value} da {company} está pendente. Chave PIX: {pix_key}. Obrigado! — Kaibez")
     updated_at = models.DateTimeField(auto_now=True)
 
     class Meta:

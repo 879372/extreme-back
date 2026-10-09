@@ -8,7 +8,7 @@ from clients.evolution import EvolutionError, send_text
 from clients.models import Client
 
 
-DEFAULT_TEMPLATE = "Olá, {name}! Passando para lembrar que a mensalidade de {value} da {company} vence hoje. Qualquer dúvida, estamos à disposição. — Extreme Software"
+DEFAULT_TEMPLATE = "Olá, {name}! Passando para lembrar que a mensalidade de {value} da {company} vence hoje. Qualquer dúvida, estou à disposição. — Kaibez"
 
 
 class Command(BaseCommand):
